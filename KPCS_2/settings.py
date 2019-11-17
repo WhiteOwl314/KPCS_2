@@ -112,3 +112,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = "/static/"
+
+STATICFILES_DIRS = ["/Users/seongju/Documents/Coding/KPCS_2/static"]
+
