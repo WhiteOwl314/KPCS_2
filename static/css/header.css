@@ -1,4 +1,10 @@
-header .header-top {background-color: #558C27; height: 45px; width: 100%;}
-header .header-top .container{color:white;}
+header .header-top {background-color: #558C27; height: 45px; width: 100%; font-size: 14px;}
+header .header-top .container{color:white; display: flex; justify-content: space-between; padding-top: 15px; padding-bottom: 15px;}
 header .header-top .container .call {}
-header .header-top .container .login {}
+header .header-top .container .call ul {display: flex; }
+header .header-top .container .call ul li:last-child {margin-left: 25px;}
+header .header-top .container .login ul {display: flex;}
+header .header-top .container .login ul li:first-child {margin-right: 5px;}
+header .header-top .container .login ul li:last-child {margin-left: 10px;}
+
+header .sticky-wrapper .header-nav .header-nav-wrapper .container .menu a img {width:228px;}
