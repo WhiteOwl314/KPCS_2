@@ -7,6 +7,7 @@ header .header-top .container .call ul li:last-child {margin-left: 25px;}
 header .header-top .container .login ul {display: flex;}
 header .header-top .container .login ul li:first-child {margin-right: 5px;}
 header .header-top .container .login ul li:last-child {margin-left: 10px;}
+header .header-top .container .login ul li a {color: white;}
 
 
 header .sticky-wrapper {box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);}
