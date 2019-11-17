@@ -8,6 +8,7 @@
 {% block css %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/header.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'css/HomeView/main_photo.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/HomeView/exam.css' %}">
 <link rel="stylesheet" href="{% static 'uikit/css/uikit.min.css' %}" />
 <script src="{% static 'uikit/js/uikit.min.js' %}"></script>
 <script src="{% static 'uikit/js/uikit-icons.min.js' %}"></script>
@@ -25,6 +26,7 @@
 
 {% block main-content %}
 <div class="main-content">
+    {% include './exam.html' %}
     {% include './main_photo.html' %}
 </div>
 
