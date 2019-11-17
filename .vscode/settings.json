@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/seongju/.local/share/virtualenvs/KPCS_2-0Aj5RCRI/bin/python"
+    "python.pythonPath": "/Users/seongju/.local/share/virtualenvs/KPCS_2-0Aj5RCRI/bin/python",
+    "python.formatting.provider": "black"
 }
