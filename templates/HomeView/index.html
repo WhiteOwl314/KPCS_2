@@ -1,9 +1,17 @@
 {% extends "base.html" %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/HomeView/index.css' %}">
+{% endblock head %}
+
+
+
 
 {% block title %}한국심리상담협회{% endblock title %}
 
 {% block header %}
-index
+<div>Hello</div>
 {% endblock header %}
 {% block main-content %}{% endblock main-content %}
 {% block footer %}{% endblock footer %}
