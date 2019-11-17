@@ -8,4 +8,10 @@ header .header-top .container .login ul {display: flex;}
 header .header-top .container .login ul li:first-child {margin-right: 5px;}
 header .header-top .container .login ul li:last-child {margin-left: 10px;}
 
+
+header .sticky-wrapper {box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);}
+header .sticky-wrapper .header-nav .header-nav-wrapper .container .menu {display: flex; justify-content: space-between; height: 150px;}
+header .sticky-wrapper .header-nav .header-nav-wrapper .container .menu ul {display: flex; justify-content: space-between; align-items: center;}
+header .sticky-wrapper .header-nav .header-nav-wrapper .container .menu ul li {font-size: 20px; margin-left: 15px;}
+header .sticky-wrapper .header-nav .header-nav-wrapper .container .menu ul li a {color:#333333}
 header .sticky-wrapper .header-nav .header-nav-wrapper .container .menu a img {width:228px; z-index: 100;}
