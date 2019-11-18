@@ -30,6 +30,25 @@
     {% include './main_photo.html' %}
 </div>
 
+<div class="exam_list">
+    {% for exam in exams %}
+    <div class="name">
+        {{exam.name}}
+    </div>
+    <div class="examDate">
+        시험일: {{exam.examDate.year}}년 {{exam.examDate.month}}월 {{exam.examDate.day}}일 온라인 시험
+    </div>
+    <div class="receptionDate">
+        접수일:
+        {{exam.receptionDate_created.month}}/{{exam.receptionDate_created.day}}~{{exam.receptionDate_ended.month}}/{{exam.receptionDate_ended.day}}까지
+        온라인 접수
+    </div>
+    <div class="announcementDate">
+        발표일: {{exam.announcementDate.year}}년 {{exam.announcementDate.month}}월 {{exam.announcementDate.day}}일 온라인 시험
+    </div>
+    {% endfor %}
+</div>
+
 {% endblock main-content %}
 
 {% block footer %}{% endblock footer %}
